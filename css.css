@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    
+}
+
+body {
+    background: #3b3f45;
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+    color: #000305;
+    font-size: 18px;
+    border: 10px solid #fff;
+    margin: 0;
+    min-height: 100%;
+    
+}
+header {
+    background: #4a4f56;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 5px 0 5px 0%;
+}
+.h2, h4, h5 {
+     text-align: center; 
+     margin: 5px;
+    }
+.container1 .container2, .container3 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+.container1 {
+    width: 100%;
+    margin: 0 0 30px 0;
+    color: #dd6c68;
+    text-align: center;
+    
+}
+.container2 {
+    max-width: 500px;
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 20px;
+}
+.container3 {
+    background: #4a4f56;
+    padding: 1px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #dd6c68;
+    width: 50%;
+
+}
+.nav {
+    padding: 0;
+}
+
+.nav li:hover {
+    background-color: #7a7593;
+    border-color: #fff;
+    
+}
+.nav li:active {
+    background-color: #ca6464;
+    border-color: #fff;
+}
+.nav li {
+    width: 100%;
+    line-height: 1.6;
+    list-style: none;
+    background: #88839e;
+    border-top: 2px solid #88839e;
+    border-bottom: 2px solid #88839e;
+    transition: all .1s ease-in;
+}
+.nav li label {
+    list-style: none;
+    display: block;
+    padding: 5px;
+}
+.nav li input{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.nav li span {
+    vertical-align: middle;
+    transition: all .1s ease-in;
+}
+.nav li small {
+    opacity: .6;
+}
+
+small:before {
+    content: "(";
+}
+small:after {
+    content: ")";
+    
+}
+.nav li small:empty {
+    display: none;
+}
+
+small {
+    font-size: 13px; 
+}
+li:nth-child(1) {
+    background:#88839e;
+    color: #fff;
+}
+li:nth-child(2n) {
+    background: #7a7593;
+    border-top: 2px solid #7a7593;
+    border-bottom: 2px solid #7a7593;
+    color: #fff;
+   }
+
+input:checked + span {
+    text-decoration: line-through;
+    
+}
+h4 {
+    margin: 15px 0;
+    
+}
+
+footer {
+    padding: 15px 0 ;
+}
